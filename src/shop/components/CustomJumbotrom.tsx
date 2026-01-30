@@ -3,8 +3,9 @@ interface Props {
   subTitle?: string;
 }
 
-const defaulSubtitle =
-  "Este es un subtitulo que describe la pagina que estas viendo";
+const defaultSubtitle =
+  'Ropa futurista y elegante inspirada en el diseño futurista de Tesla. \nCalidad premium para un estilo atemporal.'
+  ;
 
 export const CustomJumbotrom = ({ title, subTitle }: Props) => {
   return (
@@ -13,8 +14,8 @@ export const CustomJumbotrom = ({ title, subTitle }: Props) => {
         <h1 className=" font-montserrat text-2xl lg:text-5xl font-light tracking-tight mb-6">
           {title}
         </h1>
-        <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto">
-          {defaulSubtitle || subTitle}
+        <p className="text-xl text-muted-foreground mb-8 max-w-2xl mx-auto whitespace-pre-line">
+          {defaultSubtitle || subTitle}
         </p>
       </div>
     </section>
