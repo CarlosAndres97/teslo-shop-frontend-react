@@ -55,9 +55,7 @@ export const ProductForm = ({
 
   const [dragActive, setDragActive] = useState(false);
 
-  const handleInputChange = (field: keyof Product, value: string | number) => {
-    // setProduct((prev) => ({ ...prev, [field]: value }));
-  };
+
 
   const addTag = () => {
     if (
