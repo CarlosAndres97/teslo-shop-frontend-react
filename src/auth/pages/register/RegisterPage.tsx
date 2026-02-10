@@ -21,7 +21,7 @@ export const RegisterPage = () => {
     const password = formData.get('password') as string;
     const fullName = formData.get('fullname') as string;
 
-    const registered = await register(fullName, email, password);
+    const registered = await register(email, password, fullName);
     if( registered ){
       navigate('/');
       return;
