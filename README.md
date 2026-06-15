@@ -1,6 +1,8 @@
 # Teslo Shop Frontend (React)
 
 Aplicación frontend para una tienda en línea con módulo público, autenticación y panel administrativo para gestión de productos.
+<img width="1894" height="894" alt="image" src="https://github.com/user-attachments/assets/a6e6e6d0-d726-4668-8109-5746302bf208" />
+
 
 ## Requisitos
 
